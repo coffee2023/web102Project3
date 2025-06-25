@@ -1,4 +1,4 @@
-# Web Development Project 3 - *Name of App Here*
+# Web Development Project 3 - *Project 3*
 
 Submitted by: **Susana Espino-Garcia**
 
