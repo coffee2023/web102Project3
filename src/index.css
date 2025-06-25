@@ -99,3 +99,17 @@ button:hover {
   width: 90%;
   margin: auto;
 }
+
+.correct{
+  border: 3px solid rgb(59,184,22);
+  background-color: rgb(180, 231, 165);
+}
+.incorrect{
+  border: 3px solid red;
+  background-color: rgb(255, 190, 190);
+}
+button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}

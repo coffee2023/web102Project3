@@ -7,11 +7,12 @@ const App =() =>{
 
   return (
     <div className='App'>
-      <div className = "header">
+      {/* <div className = "header">
         <h1>Study Elementary Math!</h1>
         <h2>Review your addition (pink), subtraction (purple), and multiplication (blue)!</h2>
         <h2>Number of cards: 5 </h2>
-      </div>
+        <h2>Current Streak: {props.winStreak}</h2>
+      </div> */}
       <div className='Flashcards'>
         <Flashcards />
       </div>

@@ -1,6 +1,6 @@
 # Web Development Project 3 - *Name of App Here*
 
-Submitted by: **Your Name Here**
+Submitted by: **Susana Espino-Garcia**
 
 This web app: **insert description**
 
