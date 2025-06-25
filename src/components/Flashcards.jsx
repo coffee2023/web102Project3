@@ -145,23 +145,19 @@ const Flashcards = () =>{
     return (
         <div className="Flashcards">
             <div className = "header">
-            <h1>Study Elementary Math!</h1>
-            <h2>Review your addition (pink), subtraction (purple), and multiplication (blue)!</h2>
-            <h2>Number of cards: 5 </h2>
-            <h2>Current Streak: {winStreak} </h2>
-            <h2> Longest Streak: {longestStreak}</h2>
-        </div>
-            <br></br>
+                <h1>Study Elementary Math!</h1>
+                <h2>Review your addition (pink), subtraction (purple), and multiplication (blue)!</h2>
+                <h2>Number of cards: 5 </h2>
+                <h2>Current Streak: {winStreak} &nbsp; Longest Streak: {longestStreak}</h2>
+            </div>
             <div onClick={() => setFlip(!flip)} className = "insideCard">
                 {flip ? cardsList[currentCard].answer: cardsList[currentCard].question }
             </div>
-            
             <form id ="form" onSubmit = {handleSubmit}> 
                 <input type = "text" id="myInput" placeholder='Enter Answer' value ={inputAnswer} onChange = {(event) => setAnswer(event.target.value)}/>
                 <input type = "submit"/>
                 <button onClick = {shuffleCards}>Shuffle</button>
             </form>
-            <br></br>
             <button disabled = {isAtStart()} onClick = {prevCard}>Back</button>
             <button disabled = {isAtEnd()} onClick = {nextCard}>Next</button>
             

@@ -68,7 +68,7 @@ button:hover {
   place-items: center;
 }
 .Flashcards{
-  width: 80%;
+  width: 90%;
   background-color: rgb(255, 255, 255);
   display: block;
   border-radius: 10px;
@@ -77,7 +77,7 @@ button:hover {
 }
 .insideCard{
   background-color: white;
-  padding: 2em;
+  padding: 1em;
   color: black;
   display: block;
   width: 80%;
@@ -87,17 +87,16 @@ button:hover {
 .header{
   background-color: rgb(234, 243, 254);
   display: block;
-  margin-bottom: 20px;
-  width: 80%;
+  width: 95%;
   border-radius: 10px;
-  padding: 10px;
+  padding: 5px;
 }
 .App{
   background-color: rgb(183, 210, 255);
-  padding: 40px 15px;
+  padding: 30px 15px;
   border-radius: 20px;
-  width: 90%;
-  margin: auto;
+  width: 100%;
+  margin-top: 0px;
 }
 
 .correct{
