@@ -1,4 +1,4 @@
-# Web Development Project 3 - *Project 3*
+# Web Development Project 3 - *Flashcards Part 2*
 
 Submitted by: **Susana Espino-Garcia**
 
